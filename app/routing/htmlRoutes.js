@@ -1,3 +1,5 @@
+var path = require("path");
+
 module.exports = function (app) {
 	// HTML GET Requests
 	app.get('/survey', function (req, res) {
